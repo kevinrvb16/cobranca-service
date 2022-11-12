@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const CobrancaSchema = new Schema({
-    vagaOcupada: {
+    numeroVaga: {
         type: Number, 
         required: [true, 'CPF Obrigatório']},
     cobrancaCreditos: {
